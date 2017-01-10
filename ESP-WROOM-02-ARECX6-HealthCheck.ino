@@ -21,6 +21,7 @@ const int httpPort = 80;
 extern "C" {
 #include <user_interface.h>
 }
+// DeepSleep 2min.
 long sleep_interval = 2 * 60 * 1000 * 1000;
 
 /************ Debug Settings ******************/
@@ -58,7 +59,6 @@ void setup() {
   Serial.println(F("Serial start..."));
 
   delay(10);
-  //  pinMode(RELAY, OUTPUT);
   Serial.println(F("=========================================================================="));
   setupWiFi();
 };
@@ -97,6 +97,7 @@ if (!client.connect(host, httpPort)) {
   }
 
   // We now create a URI for the request
+  // ARECX6 Can't HTTP Get by httpget(). so RAW HTTP Get.
   String url = "/cgi/get.cgi?type=top";
 #ifdef DEBUG
   Serial.print(F("Requesting URL: "));
