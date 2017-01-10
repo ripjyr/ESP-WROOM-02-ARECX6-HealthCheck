@@ -15,6 +15,7 @@
 * [ESP-WROOM-02](http://amzn.to/2i9bEur)
 * [ARECX6](https://www.arecx6.jp/)([Firmware 3.03](http://www.arecx6.jp/download/index.html))のみ検証
 * 2.4Ghz Wi-Fiルーター（[ESP-WROOM-02](http://amzn.to/2i9bEur)が2.4Ghzのみのため）
+* ルーターの設定で、プライバシーセパレーターは無効化してWi-Fiから有線LANの機材に接続できるようにしておく
 
 ## Install
 
