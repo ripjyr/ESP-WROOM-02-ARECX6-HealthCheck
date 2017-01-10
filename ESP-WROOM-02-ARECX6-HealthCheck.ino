@@ -1,8 +1,6 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266HTTPClient.h>
 #include <ESP8266httpUpdate.h>
-#include <Time.h>
-#include <TimeLib.h>
 
 /************************* WiFi Access Point *********************************/
 #define WLAN_SSID       "SSID"
