@@ -7,7 +7,8 @@ ESP-WROOM-02を使った、6チャンネルワンセグ24時間録画機[ARECX6]
 
 ## Description
 
-ESP-WROOM-02から[ARECX6](https://www.arecx6.jp/)を（２分おきに）監視し、録画状態でない場合にARECX6を再起動、その後録画開始する単純なプログラムです。
+ESP-WROOM-02から[ARECX6](https://www.arecx6.jp/)を（２分おきに）監視し、録画状態でない場合にARECX6を再起動、その後録画開始する単純なプログラムです。  
+[Windows/ARecX6 - cubic9.com](http://cubic9.com/Windows/ARecX6/)のESP-WROOM-02版
 
 ## Requirement
 
