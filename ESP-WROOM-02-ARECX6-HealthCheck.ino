@@ -5,7 +5,6 @@
 /************************* WiFi Access Point *********************************/
 #define WLAN_SSID       "SSID"
 #define WLAN_PASS       "PASS"
-WiFiClient client;
 
 /************ Connection to ARECX6 Setting ******************/
 const char* host = "192.168.XX.XX";
@@ -83,6 +82,7 @@ boolean httpget(String temp_uri) {
 };
 
 void loop() {
+  WiFiClient client;
   Serial.println(F("ARECX6 status========================"));
 #ifdef DEBUG
   Serial.print(F("ARECX6: "));
