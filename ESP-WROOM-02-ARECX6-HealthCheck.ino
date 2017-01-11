@@ -142,7 +142,7 @@ if (!client.connect(host, httpPort)) {
         String reboot_url = "http://"+String(host)+"/cgi/get.cgi?type=reboot&rnd=1";
         httpget(reboot_url);
 #ifdef DEBUG
-        Serial.println(F("Sleep 2 minits"));
+        Serial.println(F("Sleep 2 minutes"));
 #endif
         delay(2 * 60  * 1000); // delay 2min to boot ARECX6
         // rec start
